@@ -14,7 +14,7 @@ class ListsController < ApplicationController
   end
 
   def index
-    @lists = List.a
+    @lists = List.all
   end
 
   def show
